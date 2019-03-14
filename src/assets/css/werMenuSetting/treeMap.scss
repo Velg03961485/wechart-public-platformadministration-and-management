@@ -1,0 +1,412 @@
+.guest-list-page{
+  .block{
+    margin-left: 5rem;
+    margin-top: 2rem;
+    //border:1px solid red;
+  }
+  .content_top{
+    //height: 750px;
+    height: 47rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .content_top_left{
+    //border:1px solid forestgreen;
+    height: 100%;
+    width: 28rem;
+    background-image: url("../../image/treeBackImage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 47rem;
+  }
+  .weixinTitle{
+    color: #EEEEEE;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    //border:1px solid red;
+    text-align: center;
+    //margin-left: 1rem;
+  }
+  .threeBtnForClick{
+    //border:1px solid chartreuse;
+    margin-top: 39.5rem;
+    height: 7.5rem;
+    width: 24rem;
+    display: flex;
+    text-align: center;
+    line-height: 3.5rem;
+    margin-left: 4rem;
+    flex-direction: row;
+    //align-items: flex-start;
+  }
+  .btnFirst{
+    //border:1px solid red;
+    width: 6.3rem;
+    //margin-right: 1rem;
+  }
+  .btnSecond{
+    width: 6.3rem;
+    //border:1px solid red;
+    //margin-left: 4rem;
+  }
+  .btnThird{
+    width: 6.3rem;
+    //border:1px solid red;
+    //margin-left: 1rem;
+  }
+  .content_top_right{
+    //border:1px solid darkcyan;
+    height: 100%;
+    width: 32rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .bitRight{
+    width: 3rem;
+    height: 100%;
+    //border:1px solid salmon;
+    //margin-top: 700px;
+  }
+  .rightImages{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 43.75rem;
+  }
+  .changeContentStyle{
+    width: 31rem;
+    height: 100%;
+    border:1px solid #e0e6ed;
+    display: flex;
+    flex-direction: column;
+  }
+  .changeContentTopStyle{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    //justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.2rem solid #EEEEEE;
+  }
+  .changeContentOldName{
+    //width: 20px;
+    font-size: 1.2rem;
+    //border:1px solid darkcyan;
+  }
+  .changeContentDel{
+    //width: 20px;
+    //border:1px solid darkcyan;
+    font-size: 1.2rem;
+    color: blue;
+  }
+  .changeContentBottomStyle{
+    width: 100%;
+    height: 12.5rem;
+    //border:1px solid darkcyan;
+    padding: 2rem 0  0 0;
+  }
+  .changeContentBottomTitleStyle{
+    margin-left: 2rem;
+  }
+  .changeContentBottomChangeFormStyle{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+  }
+  .changeContentRightBtn{
+    //border:1px solid fuchsia;
+    display: flex;
+    flex-direction: row;
+  }
+  .changeContentRightAddLast{
+    //border:1px solid fuchsia;
+    margin-top: 1rem;
+  }
+  .fontBlue{
+    color: #00a0e9;
+  }
+  .fontGray{
+    color: #8c939d;
+  }
+  //向下的内容
+  .content_bottom{
+    width: 100%;
+    height: 25rem;
+    border:1px solid darkkhaki;
+    margin-top: 1rem;
+  }
+  .bitBottom{
+    width: 3rem;
+    height: 3rem;
+    //border:1px solid darkmagenta;
+  }
+  .bottomContentAddStyle{
+    width: 100%;
+    height: 20rem;
+    //border:1px solid fuchsia;
+  }
+  .bottomContentAddTopStyle{
+    width: 100%;
+    height: 2.5rem;
+    //border:1px solid salmon;
+    display: flex;
+    align-items: center;
+  }
+  .bottomContentAddTitleStyle{
+    font-size: 1.2rem;
+    margin-left: 3rem;
+  }
+  .bottomContentAddBottomStyle{
+    width: 100%;
+    height: 10rem;
+    //border:1px solid saddlebrown;
+    margin-top: 1.5rem;
+  }
+  .bottomContentAddBottomFontAStyle{
+    //color: #00a0e9;
+  }
+  .bottomContentAddBottomFontBStyle{
+    //color: #00a0e9;
+  }
+  .custom-tree-node {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+    font-size: 18px;
+    padding-right: 8px;
+    line-height: 18px;
+  }
+  .WXTitle{
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    font-size: 15px;
+
+  }
+  .el-tree{
+    line-height: 3;
+  }
+  .treeBtn{
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #4BC076;
+    color: white;
+  }
+  .yuan{
+    position: relative;
+  }
+  .yuan:before{
+    content:'http://';
+    display: inline-block;
+    z-index:2;
+    position: absolute;
+    top:1px;
+    left:10px;
+    width:16px;
+    height:16px;
+    color:gray;
+  }
+  .listWidth{
+    width: 15rem;
+  }
+  .bottomBtnStyle{
+    //border:1px solid red;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+//  删除弹框样式
+  .deletContent{
+    //border:1px solid red;
+    display: flex;
+    flex-direction: row;
+  }
+  .deletImage{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+  }
+  .deletContentText{
+    margin-left: 0.8rem;
+  }
+  .deletTitleStyle{
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 0.5rem;
+  }
+  .deletFontStyle{
+    margin-top: 0.3rem;
+  }
+  .sortBorderStyle{
+    //border:1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 6.3rem;
+    height: 7.5rem;
+  }
+  .sortInputStyle{
+    width: 5rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    border-radius: 0.2rem;
+  }
+
+  .newBoxStyle{
+    display: flex;
+    flex-direction: row;
+  }
+  .boxInputStyle{
+    width: 2rem;
+    height: 1rem;
+  }
+  .newBoxNameStyle{
+    width: 2rem;
+    //border:1px solid chartreuse;
+  }
+
+  .checkBorder{
+    //border:1px solid red;
+    width: 23rem;
+    margin-left: 4.5rem;
+    margin-top: 1rem;
+  }
+  .backTenter{
+    //border:1px solid chocolate;
+    width: 18rem;
+  }
+  .itemStyle{
+    //border:1px solid fuchsia;
+    //text-align: center;
+    //display: flex;
+    width: 23rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  //第三版本样式
+  .newThreeBtnForClick{
+    //border:1px solid chartreuse;
+    margin-top: 20.5rem;
+    height: 26.5rem;
+    width: 24rem;
+    display: flex;
+    text-align: center;
+    line-height: 3.5rem;
+    margin-left: 4rem;
+    flex-direction: row;
+  }
+  .newsortBorderStyle{
+    //margin-top: 39.5rem;
+    //height: 7.5rem;
+    //width: 24rem;
+    height: 26.5rem;
+    width: 8rem;
+    //border:1px solid chocolate;
+  }
+.newMenuShowBorder{
+  width: 8rem;
+  height: 19rem;
+  //border:1px solid fuchsia;
+  //background-color: white;
+}
+.newMenuContentBorder{
+  height: 15rem;
+}
+.newTakeAddSecondBtn{
+  width: 8rem;
+  height: 3rem;
+  //border:1px solid aqua;
+  margin-top: 0.5rem;
+  background-color: white;
+}
+.addSecondBtnFor{
+  text-decoration: none;
+  color: #000000;
+}
+.newItemContentStyle{
+  //border:1px solid saddlebrown;
+  width: 15rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  //background-color: white;
+}
+.newMenuNameStyleFor{
+  width: 8rem;
+  height: 3rem;
+  border: 1px solid #e0e6ed;
+  background-color: white;
+}
+.newMenuNameFont{
+  width: 8rem;
+  height: 3rem;
+}
+.newSortSecondInputBorder{
+  width: 7rem;
+  height: 3rem;
+}
+.newSortSecondInput{
+  width: 6rem;
+  height: 2rem;
+  margin: 0 auto;
+  //line-height: 3rem;
+}
+.newMenuFirstBtnBorder{
+  width: 8rem;
+  height: 7rem;
+  //border:1px solid red;
+}
+.newAddFirstBtnStyle{
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  border-top: 1px solid #EEEEEE;
+  //border:1px solid salmon;
+  width: 8rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+  .newSortInputFor{
+    width: 5rem;
+    height: 2rem;
+  }
+
+
+
+
+  .sortInputStyle::-webkit-outer-spin-button,
+  .sortInputStyle::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  /* 谷歌 */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  /* 火狐 */
+  input{
+    -moz-appearance:textfield;
+  }
+
+  }

@@ -1,0 +1,53 @@
+.guest-list-page{
+  .noContentStyle{
+    //border:1px solid red;
+    font-size: 1.7rem;
+    color: black;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .btnBorderStyle{
+    text-align: center;
+  }
+  .firstAddBtnStyle{
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+  .listWidth{
+    width: 13rem;
+  }
+  .TextInputWidth{
+    width: 16rem;
+    //height: 6rem;
+  }
+  .pointWidth{
+    width: 5rem;
+  }
+  .pointWidthLast{
+    width: 8rem;
+  }
+  .inputStyle{
+    width: 5rem;
+    height: 2rem;
+  }
+  .getClickStyle{
+    width: 100%;
+    height: 9rem;
+    border:1px solid #bcbec2;
+    margin-top: 3rem;
+    border-bottom: none;
+  }
+  .itemBtnStyle{
+    width: 100%;
+    height: 3rem;
+    //border:1px solid red;
+    text-align: center;
+    line-height: 3rem;
+    border-bottom: 1px solid #bcbec2;
+  }
+  .timeStyleFor{
+    //border:1px solid red;
+    width: 30rem;
+    margin-left: 0rem;
+  }
+}

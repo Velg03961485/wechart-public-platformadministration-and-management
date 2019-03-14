@@ -1,0 +1,41 @@
+
+@font-face {font-family: "iconfont";
+  src: url('../icon/iconfont.eot?t=1502680783898'); /* IE9*/
+  src: url('../icon/iconfont.eot?t=1502680783898#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../icon/iconfont.woff?t=1502680783898') format('woff'), /* chrome, firefox */
+  url('../icon/iconfont.ttf?t=1502680783898') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../icon/iconfont.svg?t=1502680783898#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-down:before { content: "\e6d5"; }
+
+.icon-duihao:before { content: "\e622"; }
+
+.icon-paypal:before { content: "\e60f"; }
+
+.icon-error:before { content: "\e602"; }
+
+.icon-back:before { content: "\e615"; }
+
+.icon-combined:before { content: "\e600"; }
+
+.icon-alipay:before { content: "\e601"; }
+
+.icon-weixinpay:before { content: "\e603"; }
+
+.icon-top:before { content: "\e604"; }
+
+.icon-right:before { content: "\e605"; }
+
+.icon-edit:before { content: "\e606"; }
+
+.icon-delete:before { content: "\e607"; }
+

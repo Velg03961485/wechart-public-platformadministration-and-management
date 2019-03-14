@@ -1,0 +1,167 @@
+.home .el-input__inner{
+  height: 40px;
+}
+.el-button--primary {
+    color: #fff;
+    background-color: #00a0e9;
+    border-color: #00a0e9;
+}
+
+.navbar .el-badge__content.is-fixed {
+    top: 6px;
+    right: 8px;
+}
+
+.navbar .el-dropdown {
+    font-size: 13px;
+    color: white;
+    opacity: 0.7;
+}
+
+.navbar .el-dropdown-menu {
+    top: 40px !important;
+    font-size: 13px;
+}
+
+.el-dropdown-menu__item {
+  font-size: 14px !important;
+}
+
+.navbar .el-dropdown-menu__item:not(.is-disabled):hover {
+    color: #48576a;
+}
+
+.navbar .el-dropdown-link:hover {
+    background: white;
+    color:black;
+    display: inline-block;
+    line-height: 18px;
+}
+
+.navbar .el-dropdown-link {
+    padding: 5px 10px 5px 10px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.sidebar .el-menu {
+    border-radius: 0px;
+    width: 190px;
+    height: 100%;
+}
+.sidebar .el-menu-item {
+    height: 50px;
+    line-height: 50px;
+    color: #DADEE1;
+    background-color: #495b6c;
+    /*padding-left: 46px !important;*/
+    min-width: 190px;
+}
+.sidebar .el-submenu .el-menu-item {
+  padding-left: 46px !important;
+}
+
+.sidebar .el-submenu__title {
+    color: white;
+    background-color: #415160;
+}
+.sidebar .el-menu-item img, .el-submenu__title img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.sidebar .el-menu-item.is-active {
+    background-color: #f9f9f9;
+    color: #4a4a4a;
+}
+
+.sidebar .el-menu-item:hover {
+    color: #4a4a4a;
+    background-color: #d1dbe5;
+}
+
+.sidebar .el-submenu__title:hover {
+    background-color:#415160;
+}
+
+.main-box {
+  font-size: 14px !important;
+}
+
+.el-message-box__wrapper {
+  font-size: 14px !important;
+}
+
+.message-dialog .el-textarea__inner{
+    height: 73px;
+    resize: none;
+    border: none;
+}
+
+.message-dialog .el-collapse {
+  border: none;
+}
+
+.dashboard .my-packages .el-row {
+    height: 88px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.dashboard .my-packages .el-row .el-col {
+    width: 79px;
+}
+
+.dashboard .supervise .el-col, .dashboard .qc .el-col {
+    height: 80px;
+    background-color: #00a0e9;
+}
+
+.dashboard .el-table {
+  border: none;
+}
+
+.dashboard .el-card__body {
+  padding: 0;
+}
+
+.templates .nav-menu .el-breadcrumb {
+    height:50px;
+    line-height: 50px;
+    margin-left: 30px;
+}
+
+.templates .nav-menu .el-breadcrumb .el-breadcrumb__item:first-child > .el-breadcrumb__item__inner:hover {
+    cursor: default;
+    color: #475669;
+}
+
+.message-dialog .el-collapse .el-collapse-item__header {
+  font-size: 14px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.message-dialog .el-collapse .el-collapse-item__wrap .el-collapse-item__content>div{
+  font-size: 14px;
+  padding: 10px;
+}
+
+.input-optional {
+  display: inline-block;
+  color: #888;
+}
+
+/*清除浮动*/
+.clear {
+  clear: both;
+}
+
+/*iconfont样式*/
+[class^="el-icon-erp"], [class*=" el-icon-erp"] {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

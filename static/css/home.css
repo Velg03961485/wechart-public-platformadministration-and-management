@@ -1,0 +1,61 @@
+/* 登录界面 */
+.login .el-checkbox__label {
+  color: #898989;
+  font-size: 12px;
+}
+
+/* 注册组件 */
+.register .el-checkbox__inner{
+  margin-bottom: -3px;
+}
+
+.register .el-cascader__label {
+  top: 3px;
+}
+.register .el-tabs {
+  padding: 0 50px;
+}
+.register .el-tabs__item.is-active {
+  color: #4a4a4a;
+  font-size: 18px;
+}
+.register .el-tabs__active-bar{
+  height: 2px;
+}
+
+.register .el-tabs__content {
+  height: 0;
+}
+.el-message-box{
+  width: 80% !important;
+  max-width: 420px;
+}
+/* 找回密码 */
+.forget-password .el-tabs__nav, .register .el-tabs__nav{
+  float:none;
+}
+
+.forget-password .el-tabs__active-bar{
+  height: 2px;
+  left:16px;
+}
+
+.forget-password .el-tabs__item {
+  width: 116px;
+}
+
+.is-danger-custom .el-input__inner {
+  border: 0px;
+}
+
+.is-danger-custom .el-input-group__prepend {
+  border: 0px;
+}
+
+.home .is-danger-custom .el-input-group__append{
+  border: 0px;
+}
+
+.home .sendCode .el-button {
+  height: 38px;
+}

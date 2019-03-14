@@ -1,0 +1,91 @@
+.guest-list-page{
+  .memberNameTitle{
+    font-size: 1.4rem;
+  }
+  .backTo{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+  }
+  .memberContentStyle{
+    //border:1px solid red;
+    display: flex;
+    width: 70rem;
+    height: 12rem;
+    margin-top: 2rem;
+    border-bottom: 1px solid #e0e6ed;
+  }
+  .memberHeadStyle{
+    //border:1px solid goldenrod;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .memberImage{
+    width: 6rem;
+    height: 6rem;
+    display: inline-block;
+    //border:1px solid salmon;
+    border-radius: 50%;
+    margin-top: 2rem;
+  }
+  .headTitle{
+    margin-top: 2rem;
+
+  }
+  .memberInfoStyle{
+    //border:1px solid navajowhite;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  .memberInfoFirst{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 6rem;
+    text-align: center;
+    //border:1px solid fuchsia;
+    //text-align: center;
+    //align-items: center;
+  }
+  .memberInfoLast{
+    width: 100%;
+    align-items: flex-start;
+    padding-left: 1rem;
+  }
+  .memberInfoName{
+    display: flex;
+    flex-direction: row;
+    //margin: 0 auto;
+    line-height: 6rem;
+    //border:1px solid salmon;
+    width: 50%;
+  }
+  .memberInfoForName{
+    //border:1px solid darkkhaki;
+    //width: 4rem;
+    width: 30%;
+  }
+  .memberInfoForRole{
+    //border:1px solid lawngreen;
+    width: 70%;
+  }
+  .memberTakeStyle{
+    //border:1px solid darkmagenta;
+    width: 15rem;
+  }
+  .memberTakeContent{
+    display: flex;
+    flex-direction: row;
+    height: 6rem;
+    line-height: 6rem;
+  }
+  .memberTakeBottom{
+    height: 6rem;
+    line-height: 6rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,170 @@
+.guest-list-page{
+  .memberInfoStyleForPlace{
+    border:1px solid transparent;
+
+    width: 70rem;
+    margin-left: 0rem;
+    height: 15rem;
+    margin-top: 1rem;
+    background-color: #00a0e9;
+  }
+  .border_placeInputStyle{
+    margin: 2rem 0rem;
+  }
+  .place_inputBorderStyle{
+    //border:1px solid hotpink;
+    display: flex;
+    height: 4rem;
+    line-height: 4rem;
+  }
+  .place_inputRightBorderStyle{
+    //border:1px solid red;
+    width: 100%;
+    margin-left: 0rem;
+  }
+  .place_inputTitStyle{
+    //border:1px solid lime;
+    width: 5rem;
+    margin-left: 0rem;
+    height: 4rem;
+    line-height: 4rem;
+  }
+  .place_inputStyle{
+    width: 18rem;
+  }
+  .add_goodsListBorderStyle{
+    //border:1px solid red;
+    width: 70rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  .add_goodsItemStyle{
+    width: 100%;
+    //border:1px solid lime;
+    display: flex;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  .add_goodsItemNameStyle{
+    //border:1px solid darkmagenta;
+    width: 4rem;
+    margin-left: 0rem;
+  }
+  .add_goodsItemTextStyle{
+    //border:1px solid darkkhaki;
+    width: 6rem;
+    margin-left: -12rem;
+  }
+  .add_goodsItemStyleStyle{
+    //border:1px solid darkcyan;
+    width: 6rem;
+    margin-left: -9rem;
+  }
+  .add_goodsItemMoneyStyle{
+    //border:1px solid darkblue;
+    width: 10rem;
+    margin-left: -9rem;
+  }
+  .itemMarginLift{
+    margin-left: 1rem;
+  }
+  .add_goodsItemTakeStyle{
+    //border:1px solid darkgreen;
+    width: 12rem;
+    margin-left: 0rem;
+  }
+//  添加btn
+  .add_btnStyle{
+    border:1px solid red;
+    width: 70rem;
+    margin-top: 1rem;
+    height: 4rem;
+    text-align: center;
+    margin-left: 0rem;
+  }
+  .addBtn_textBtnStyle{
+    //line-height: 4rem;
+    width: 12rem;
+    margin-top: 0.5rem;
+  }
+//  天机优惠券
+  .add_cardBorderStyle{
+    border:1px solid red;
+    width: 70rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  .item_cardBorderStyle{
+    border:1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .item_cardForOneStyle{
+    width: 20rem;
+    height: 10rem;
+    border:1px solid sandybrown;
+    position: relative;
+    margin-top: 0.5rem;
+  }
+  .item_cardContentStyle{
+    width: 100%;
+    height: 100%;
+
+  }
+  .choseThisItem_cardStyle{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,225,255,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    border:2px solid red;
+  }
+  .item_cardContentImageStyle{
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    //border:1px solid lime;
+    margin-top: 0.5rem;
+  }
+  .item_cardContentImg{
+    //border:1px solid red;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+  .item_cardContentNameStyle{
+    width: 100%;
+    height: 1rem;
+    //border:1px solid lightblue;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+  .item_cardContentSubNameStyle{
+    width: 100%;
+    height: 2rem;
+    //border:1px solid lightcoral;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .item_cardContentTypeStyle{
+    width: 100%;
+    height: 1rem;
+    //border:1px solid lightblue;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .item_cardContentTimeStyle{
+    width: 100%;
+    height: 1.5rem;
+    //border:1px solid sandybrown;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+  }
+}

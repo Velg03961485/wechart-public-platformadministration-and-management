@@ -1,0 +1,35 @@
+.guest-list-page{
+  .btn{
+    float: right;
+    margin-right: 15rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #4BC076;
+    color: white;
+  }
+  .btn:hover{
+    background: #4DB076;
+    color: #fff!important;
+  }
+  .listWidth{
+    width: 15rem;
+  }
+}
+
